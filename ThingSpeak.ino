@@ -39,10 +39,7 @@ unsigned int counterFieldNumber = 1;
 
 void setup() {
   Serial.begin(115200);  //Initialize serial
-  while (!Serial) {
-    ; // wait for serial port to connect. Needed for Leonardo native USB port only
-  }
-      
+ 
 //   ThingSpeak.begin(client);  // Initialize ThingSpeak
 }
 
