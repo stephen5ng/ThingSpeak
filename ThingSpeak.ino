@@ -23,10 +23,8 @@
   Copyright 2020, The MathWorks, Inc.
 */
 
- #include "secrets.h"
+#include "secrets.h"
 #include "ThingSpeak.h" // always include thingspeak header file after other header files and custom macros
-
-byte mac[] = SECRET_MAC;
 
 // Weather station channel details
 unsigned long weatherStationChannelNumber = SECRET_CH_ID_WEATHER_STATION;
